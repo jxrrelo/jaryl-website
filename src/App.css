@@ -21,6 +21,11 @@ section {
   display: flex;
 }
 
+.about-content {
+  flex-direction: row;
+  display: flex;
+}
+
 .section-header {
   margin-top: 10%;
 }
@@ -28,22 +33,21 @@ section {
 .nav-bar {
   display: flex;
   align-items: center;
+  justify-content: right;
   position: -webkit-sticky;
   position: sticky;
   top: -5px;
   z-index: 2;
   height: 70px;
   min-height: 70px;
-  width: calc(100% - 1.5rem);
   background-color: #ffffff;
-  padding: 0 55rem;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 
 .nav-container-actions {
   display: inline-flex;
   flex-flow: row nowrap;
-  margin-left: 4%;
+  margin-left: 60%;
   flex: 1;
 }
 

@@ -1,0 +1,21 @@
+.about-me-container {
+    margin-right: 9%;
+}
+
+.about-me-description {
+    text-align: left;
+    margin-right: 8%;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.resume-button {
+    color: white;
+    font-size: 20px;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #1C2E4A;
+    margin-top: 5%;
+    margin-right: 80%;
+}
