@@ -78,6 +78,38 @@ class App extends Component {
           <p className="section-header">
             Experience
           </p>
+          <div className="experience-cards">
+            <div className="card-style">
+              <div className="card-content">
+                Card
+              </div>
+            </div>
+            <div className="card-style">
+              <div className="card-content">
+                Card
+              </div>
+            </div>
+            <div className="card-style">
+              <div className="card-content">
+                Card
+              </div>
+            </div>
+            <div className="card-style">
+              <div className="card-content">
+                Card
+              </div>
+            </div>
+            <div className="card-style">
+              <div className="card-content">
+                Card
+              </div>
+            </div>
+            <div className="card-style">
+              <div className="card-content">
+                Card
+              </div>
+            </div>
+          </div>
         </section>
         <section id="projects">
           <p className="section-header">

@@ -117,3 +117,30 @@ li:hover {
     transform: rotate(360deg);
   }
 }
+
+.experience-cards {
+  flex-direction: row;
+  width: 100%;
+  overflow: auto;
+  scrollbar-width: none;
+  display: flex;
+}
+
+.experience-cards::-webkit-scrollbar{
+  display: none;
+}
+
+.card-style {
+  height: 500px;
+  min-width: 400px;
+  margin: 1%;
+  border-radius: 5%;
+  color: white;
+  font-weight: none;
+  background-color: #1C2E4A;
+}
+
+.card-content {
+  padding: 5%;
+  
+}
