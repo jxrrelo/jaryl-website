@@ -1,0 +1,27 @@
+.introduction {
+    text-align: left;
+    margin-left: 7%;
+    margin-top: -5%;
+  }
+  
+  .intro-phrase {
+    font-weight: normal;
+    font-size: 25px;
+  }
+  
+  .name {
+    font-size: 120px;
+    color: #1C2E4A;
+  }
+  
+  .motto {
+    font-size: 40px;
+    color: #61738F;
+    word-wrap: break-word;
+  }
+  
+  .whoami {
+    font-size: 25px;
+    margin-top: 2%;
+    font-weight: normal;
+  }
