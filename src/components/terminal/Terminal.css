@@ -1,6 +1,6 @@
 .hero-body {
   background-color: transparent !important;
-  margin-top: 3%;
+  margin-top: 10%;
 }
 
 .terminal {
@@ -43,7 +43,7 @@
 }
 
 .terminal-window {
-  min-height: 270px;
+  min-height: 350px;
   max-height: 60vh;
   padding: 0.5rem 1rem;
   display: flex;
