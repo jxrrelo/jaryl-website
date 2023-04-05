@@ -33,7 +33,6 @@ section {
 .nav-bar {
   display: flex;
   align-items: center;
-  justify-content: right;
   position: -webkit-sticky;
   position: sticky;
   top: -5px;
@@ -44,10 +43,15 @@ section {
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 
-.nav-container-actions {
+.nav-container-actions-left {
+  margin-left: 7%;
+  font-size: 200px;
+}
+
+.nav-container-actions-right {
   display: inline-flex;
   flex-flow: row nowrap;
-  margin-left: 60%;
+  margin-left: 53%;
   flex: 1;
 }
 

@@ -9,9 +9,18 @@ import { useState, Component } from "react";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div id="app" className="App">
         <header className="nav-bar">
-          <nav className="nav-container-actions">
+          <nav className="nav-container-actions-left">
+            <ul>
+              <li>
+                <Link to="app" onClick={() => window.location.reload()}>
+                    J
+                </Link>
+              </li>
+            </ul>
+          </nav>
+          <nav className="nav-container-actions-right">
             <ul>
               <li>
                 <Link activeClass="active" smooth spy to="about">
