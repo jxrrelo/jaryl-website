@@ -10,10 +10,8 @@ class About extends Component {
                     <br /><br />
                     My interest in software development started back in 2017
                     when I was first introduced to the basics of programming.
-                    While still being engaged in development, I often
-                    participated in CTF competitions since 2020. The
-                    satisfaction from a well-developed product along with the
-                    thrill of breaking insecure programs were the motivations
+                    The satisfaction from a well-developed product along with
+                    the thrill of breaking insecure programs were the motivations
                     that have kept me going ever since.
                     <br /><br />
                     Outside of work, you may occasionally find me playing football, climbing and traveling! :)

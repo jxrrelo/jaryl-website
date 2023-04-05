@@ -47,8 +47,22 @@ class App extends Component {
         </header>
         <section id="home">
           <div className="home-content">
-            <Introduction />
-            <Terminal />
+            <div className="home-content-left">
+              <Introduction />
+              <Terminal />
+            </div>
+            <div className="home-content-right">
+              <div className="home-display-picture">
+                <img
+                    src={require('./landing-dp2.png')}
+                    style={{
+                        borderRadius: "5%",
+                        width: 405,
+                        height: 550,
+                    }}
+                />
+              </div>
+            </div>
           </div>
         </section>
         <section id="about">

@@ -1,6 +1,6 @@
 .introduction {
     text-align: left;
-    margin-left: 9%;
+    width: 60%;
 }
 
 .intro-phrase {
@@ -14,7 +14,7 @@
 }
 
 .motto {
-    font-size: 40px;
+    font-size: 35px;
     color: #61738F;
     word-wrap: break-word;
 }
