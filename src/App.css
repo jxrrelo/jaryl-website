@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 .App {
-  font-family: sans-serif;
+  font-family: 'Lato';
   text-align: center;
+  
 }
 
 .App-link {
@@ -36,8 +39,14 @@ section {
 
 .about-content {
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  margin-top: -5%;
+  margin-top: -20%;
+}
+
+.posts-content {
+  margin-top: -20%;
 }
 
 .section-header {
@@ -65,7 +74,7 @@ section {
 .nav-container-actions-right {
   display: inline-flex;
   flex-flow: row nowrap;
-  margin-left: 53%;
+  margin-left: 45%;
   flex: 1;
 }
 

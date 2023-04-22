@@ -2,6 +2,8 @@ import './App.css';
 import Terminal from './components/terminal/Terminal';
 import Introduction from './components/introduction/Introduction';
 import About from './pages/about/About';
+import Contact from './pages/contact/Contact';
+import Posts from './pages/posts/Posts';
 import ProfilePhoto from './components/profile_photo/ProfilePhoto';
 import { Link } from "react-scroll";
 import { useState, Component } from "react";
@@ -35,6 +37,11 @@ class App extends Component {
               <li>
                 <Link activeClass="active" smooth spy to="projects">
                     Projects
+                </Link>
+              </li>
+              <li>
+                <Link activeClass="active" smooth spy to="posts">
+                    Posts
                 </Link>
               </li>
               <li>
@@ -116,10 +123,21 @@ class App extends Component {
             Projects
           </p>
         </section>
+        <section id="posts">
+          <p className="section-header">
+            Posts
+          </p>
+          <div className="posts-content">
+            <Posts />
+          </div>
+        </section>
         <section id="contact">
           <p className="section-header">
             Contact
           </p>
+          <div className="about-content">
+            <Contact />
+          </div>
         </section>
       </div>
     );

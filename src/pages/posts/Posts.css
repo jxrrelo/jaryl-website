@@ -1,0 +1,28 @@
+.posts-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.post-card {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 60%;
+    min-width: 200px;
+    margin: 1%;
+    border-radius: 20px;
+    color: black;
+    font-weight: none;
+}
+
+.post-date {
+    color: grey;
+    font-size: 20px;
+}
+
+.post-card:hover {
+    background-color: rgb(241, 241, 241);
+  }
