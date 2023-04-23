@@ -22,6 +22,10 @@ textarea {
   }
 }
 
+.app-container {
+  width: 100vw;
+}
+
 .experience-cards {
   flex-direction: row;
   width: 100%;

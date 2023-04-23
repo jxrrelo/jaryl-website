@@ -7,8 +7,14 @@ section {
     font-family: 'Lato';
 }
 
-.section-header {
-    margin-top: -5%;
+
+.post-card-list {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50%;
+    width: 100vw;
 }
 
 .posts-container {
@@ -34,6 +40,10 @@ section {
     font-size: 25px;
 }
 
+.post-title:hover {
+    cursor: pointer;
+}
+
 .post-date {
     color: grey;
     font-size: 20px;
@@ -41,4 +51,14 @@ section {
 
 .post-card:hover {
     background-color: rgb(241, 241, 241);
+}
+
+.posts-footer {
+    margin-top: 3%;
+    margin-left: 50%;
+}
+
+.posts-footer:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

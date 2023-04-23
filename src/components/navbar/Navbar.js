@@ -10,9 +10,9 @@ const Navbar = () => {
                 <nav className="nav-container-actions-left">
                     <ul>
                         <li>
-                        <Link to="/" onClick={() => window.location.reload()}>
+                        <RouterLink to="/">
                             J
-                        </Link>
+                        </RouterLink>
                         </li>
                     </ul>
                 </nav>

@@ -9,13 +9,13 @@ import { Link } from "react-scroll";
 class App extends Component {
   render() {
     return (
-      <>
+      <div className="app-container">
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/posts' element={<Posts />} />
         </Routes>
-      </>
+      </div>
     );
   }
   

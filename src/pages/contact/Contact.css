@@ -16,10 +16,21 @@
     display: flex;
     justify-content: center;
     font-size: 15px;
+    margin-top: 3%;
+}
+
+.linkedin-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .social-media-links a {
-    margin: 0 10px;
+    margin: 0px 15px;
 }
 
 .contact-thankyou-msg {
