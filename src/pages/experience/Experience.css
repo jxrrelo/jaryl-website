@@ -1,0 +1,34 @@
+.experience-cards {
+    flex-direction: row;
+    width: 100%;
+    overflow: auto;
+    scrollbar-width: none;
+    display: flex;
+}
+
+.experience-cards::-webkit-scrollbar{
+    display: none;
+}
+  
+.card-style {
+    height: 500px;
+    min-width: 400px;
+    margin: 1%;
+    border-radius: 5%;
+    color: #1C2E4A;
+    font-weight: none;
+    background-color: #bfcadb;
+}
+  
+.card-title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5%;
+}
+
+.card-description {
+    font-weight: none;
+    font-size: 20px;
+    margin-bottom: 5%;
+}

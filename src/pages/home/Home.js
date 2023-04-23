@@ -3,6 +3,8 @@ import { Component } from "react";
 import Terminal from '../../components/terminal/Terminal';
 import Introduction from '../../components/introduction/Introduction';
 import About from '../../pages/about/About';
+import Experience from '../../pages/experience/Experience';
+import Projects from '../../pages/projects/Projects';
 import Contact from '../../pages/contact/Contact';
 import ProfilePhoto from '../../components/profile_photo/ProfilePhoto';
 
@@ -43,43 +45,13 @@ class Home extends Component {
                     <p className="section-header">
                         Experience
                     </p>
-                    <div className="experience-cards">
-                        <div className="card-style">
-                        <div className="card-content">
-                            Card
-                        </div>
-                        </div>
-                        <div className="card-style">
-                        <div className="card-content">
-                            Card
-                        </div>
-                        </div>
-                        <div className="card-style">
-                        <div className="card-content">
-                            Card
-                        </div>
-                        </div>
-                        <div className="card-style">
-                        <div className="card-content">
-                            Card
-                        </div>
-                        </div>
-                        <div className="card-style">
-                        <div className="card-content">
-                            Card
-                        </div>
-                        </div>
-                        <div className="card-style">
-                        <div className="card-content">
-                            Card
-                        </div>
-                        </div>
-                    </div>
+                    <Experience />
                 </section>
                 <section id="projects">
                     <p className="section-header">
                         Projects
                     </p>
+                    <Projects />
                 </section>
                 <section id="contact">
                     <p className="section-header">
