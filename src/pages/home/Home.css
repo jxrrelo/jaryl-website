@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.App {
+    font-family: 'Lato';
+    text-align: center;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+section {
+    display: grid;
+    place-items: top;
+    margin-top: 10%;
+    height: 100vh;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.section-header {
+    margin-top: 10%;
+}
+  
+#about {
+    margin-top: -80px;
+}
+
+.home-content {
+    flex-direction: row;
+    display: flex;
+}
+
+.home-content-left {
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    margin-top: -4%;
+    margin-left: 8%;
+}
+
+.home-content-right {
+    margin-top: -2%;
+    margin-left: -28%;
+}
+
+.about-content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -20%;
+}
+
+.posts-content {
+
+}

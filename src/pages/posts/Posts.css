@@ -1,7 +1,22 @@
+section {
+    display: grid;
+    place-items: top;
+    margin-top: 5%;
+    height: 100vh;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+
+.section-header {
+    margin-top: -5%;
+}
+
 .posts-container {
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
 
 .post-card {
@@ -16,6 +31,7 @@
     border-radius: 20px;
     color: black;
     font-weight: none;
+    font-size: 25px;
 }
 
 .post-date {
@@ -25,4 +41,4 @@
 
 .post-card:hover {
     background-color: rgb(241, 241, 241);
-  }
+}

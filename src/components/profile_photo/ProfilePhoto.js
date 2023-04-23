@@ -1,6 +1,5 @@
 import './ProfilePhoto.css';
-import { Link } from "react-scroll";
-import { useState, Component } from "react";
+import { Component } from "react";
 
 class ProfilePhoto extends Component {
     render() {
