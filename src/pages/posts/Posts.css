@@ -1,7 +1,6 @@
 section {
     display: grid;
     place-items: top;
-    margin-top: 5%;
     height: 100vh;
     font-size: 32px;
     font-weight: bold;
@@ -17,6 +16,7 @@ section {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10%;
 }
 
 .post-card {

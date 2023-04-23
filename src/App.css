@@ -48,3 +48,48 @@ textarea {
   padding: 5%;
   
 }
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -5px;
+  z-index: 2;
+  height: 70px;
+  min-height: 70px;
+  background-color: #ffffff;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+}
+
+.nav-container-actions-left {
+  margin-left: 7%;
+  font-size: 200px;
+}
+
+.nav-container-actions-right {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  margin-left: 45%;
+  flex: 1;
+}
+
+.active {
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  gap: 4rem;
+  font-size: 1.2rem;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+}

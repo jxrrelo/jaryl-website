@@ -2,19 +2,20 @@ import './App.css';
 import Navbar from './components/navbar/Navbar'
 import Posts from './pages/posts/Posts';
 import Home from './pages/home/Home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { React, Component } from "react";
+import { Link } from "react-scroll";
 
 class App extends Component {
   render() {
     return (
-        <BrowserRouter>
-          <Navbar />
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/posts' element={<Posts />} />
-          </Routes>
-        </BrowserRouter>
+      <>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/posts' element={<Posts />} />
+        </Routes>
+      </>
     );
   }
   

@@ -1,54 +1,53 @@
 import './Navbar.css';
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import { Component } from "react";
 
-class Navbar extends Component {
-    render() {
-        return (
+const Navbar = () => {
+    return(
+        <>
             <header className="nav-bar">
                 <nav className="nav-container-actions-left">
-                <ul>
-                    <li>
-                    <Link to="app" onClick={() => window.location.reload()}>
-                        J
-                    </Link>
-                    </li>
-                </ul>
+                    <ul>
+                        <li>
+                        <Link to="/" onClick={() => window.location.reload()}>
+                            J
+                        </Link>
+                        </li>
+                    </ul>
                 </nav>
-            
                 <nav className="nav-container-actions-right">
-                <ul>
-                    <li>
-                        <Link activeClass="active" smooth spy to="about">
-                            About
+                    <ul>
+                        <li>
+                            <Link activeClass="active" smooth spy to="about">
+                                About
+                            </Link>
+                        </li>
+                        <li>
+                            <Link activeClass="active" smooth spy to="experience">
+                                Experience
+                            </Link>
+                        </li>
+                        <li>
+                            <Link activeClass="active" smooth spy to="projects">
+                                Projects
+                            </Link>
+                        </li>
+                        <li>
+                            <RouterLink to="/posts">
+                                Posts
+                            </RouterLink>
+                        </li>
+                        <li>
+                        <Link activeClass="active" smooth spy to="contact">
+                            Contact
                         </Link>
-                    </li>
-                    <li>
-                        <Link activeClass="active" smooth spy to="experience">
-                            Experience
-                        </Link>
-                    </li>
-                    <li>
-                        <Link activeClass="active" smooth spy to="projects">
-                            Projects
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/posts">
-                            Posts
-                        </Link>
-                    </li>
-                    <li>
-                    <Link activeClass="active" smooth spy to="contact">
-                        Contact
-                    </Link>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
                 </nav>
             </header>
-        );
-    }
-    
+        </>
+    );
 }
 
 export default Navbar;
